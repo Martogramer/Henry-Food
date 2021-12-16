@@ -1,0 +1,113 @@
+.creator_link, .creator_link_a{
+    color: palevioletred;
+    position: absolute;
+    left: 70px;
+    top: 10px;
+}
+.creator_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: chocolate;
+}
+.creator_container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;    
+    border-radius: 10px;
+    
+    padding: 2%;
+    background: rgba(100, 148, 237, 0.397);
+    width: 54%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: scale(76%);
+}
+.creator_input, .creator_input_i {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    width: 90%;
+    margin: 6px;
+    padding: 6px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid #ff000446;
+    outline: none;
+    background: rgba(129, 127, 127, 0.288);
+}
+.creator_input_i::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgba(34, 32, 32, 0.726);
+}
+.creator_input::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgba(34, 32, 32, 0.726);
+}
+
+.creator_textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 6px;
+    margin: 6px;
+    
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    
+    border-bottom: 2px solid #ff000446;
+    width: 90%;
+    height: 60px;
+    background: rgba(129, 127, 127, 0.288);
+}
+.creator_textarea::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgba(34, 32, 32, 0.726);
+}
+.creator_select {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: transparent;
+    
+    border: 1px solid #6cffda25;
+    padding: 4px;
+    margin: 5px;
+}
+.creator_btn{
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: none;
+    padding: 2vh;
+    width: 36%;
+    background-color: #ff0006;
+    color: #f7e2e3;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgb(128, 128, 128);
+}
+.creator_btn:hover{
+    background: #f323158c;
+}
+.creator_btn:active, .creator_btn:focus {
+    box-shadow: 0 0 0 0;
+    box-shadow: inset 0 0 10px 0 rgb(240, 18, 18);
+}
+.creator_btn:disabled{
+    background-color: #ff0006;
+    color: aquamarine;
+    cursor: not-allowed;
+}
+.creator_range, .creator_range2{
+    cursor: pointer;
+    width: 330px;
+    margin: 15px;
+}
+.creator_err{
+    color: #ff000000;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.creator_ul{
+    margin-left: 40px;
+    margin-right: 40px;
+}

@@ -1,0 +1,51 @@
+.detail_link, .detail_link_a{
+    color: #111;
+    position: absolute;
+    left: 70px;
+    top: 11px;
+}
+
+.detail_container {
+    clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%);
+    background: #9999;
+    position: static;
+    top: -20px;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    transform: scale(84%);
+}
+
+.detail_title{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.detail_score, .detail_health, .detail_diets{
+    font-size: 12px;
+    display: inline;
+}
+.detail_resume, .detail_sbs{
+    width: 900px;
+    margin: auto;
+    font-size: 14px;
+    margin: 22px auto;
+    color: rgba(46, 20, 20, 0.6)
+}
+.detail_img{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    height: 120px;
+    box-shadow: 0 0 10px 0 #333;
+    border-radius: 5px;
+    cursor: none;
+    animation: move 2s alternate linear infinite;
+}
+@keyframes move {
+    from{
+        transform: scale(100%);
+    }
+    to{
+        transform: scale(80%);
+    }
+}

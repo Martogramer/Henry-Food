@@ -1,0 +1,26 @@
+.paged_cont{
+    position: relative;
+    right: 20px;
+}
+.boton_paged{
+    font-family: cursive;
+    background-color: tomato;
+    color: thistle;
+    border: none;
+    width: 32px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 7px;
+    cursor: pointer;
+}
+.boton_paged:hover{
+    background-color: turquoise;
+    color: #000;
+    box-shadow: 0 0 10px 0 rgb(228, 204, 204);
+}
+.boton_paged:focus, .boton_paged:active{
+    outline: 2px solid rgb(189, 64, 64);
+    background-color: blue;
+    color: cadetblue;
+    box-shadow: 0 0 10px 0 rgb(35, 218, 59);
+}

@@ -1,0 +1,24 @@
+
+
+
+
+.card_card {
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    width: 500px;
+    height: 340px;
+    margin: 28px;
+
+    transition: border .5s;
+    cursor: pointer;
+    background: orangered;
+    transition: background-color 1s;
+    border: none;
+    transform: scale(90%) rotate(4deg);
+}
+
+.card_card:hover {
+    outline: 4px solid #d4a838;
+    background: linear-gradient(43deg, #000000, #a52c2c);
+}

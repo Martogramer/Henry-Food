@@ -1,0 +1,41 @@
+.sb_cont{
+  display: grid;
+  grid-template-columns: auto auto;
+  position: absolute;
+}
+ .input{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    color: rgb(214, 0, 0);
+    background: rgba(46, 48, 71, 0.466);
+    
+    margin: 10px auto;
+    padding: 5px;
+    width: 300px;
+    border: 1px solid #5f9ed8;
+    height: 20px;
+    margin-left: 5px;
+    outline: none;
+}
+
+ .input::placeholder{
+    color: rgba(235, 235, 235, 0.781);
+}
+
+
+ .btn{
+    border: none;
+    
+    background: transparent;
+    
+    cursor: pointer;
+    
+    color: rgba(37, 42, 97, 0.671);
+    width: 0%;
+    
+    margin-left: 0px;
+    
+
+    font-size: 3vh;
+} 
