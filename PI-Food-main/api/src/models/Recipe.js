@@ -8,7 +8,7 @@ module.exports = (sequelize) => {
     id: {
       primaryKey: true,
       type: DataTypes.UUID, //genera un id random unico
-      deafaultValue: DataTypes.UUIDV4(),
+      deafaultValue: DataTypes.UUIDV4,
       allowNull: false,  // en false, no permite que este vacio
     },
     name: {
